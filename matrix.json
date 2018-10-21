@@ -1,42 +1,27 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "./images/moreph.jpg",
         "clicked": false
     }, 
     {
         "id": 2,
-        "image": "",
+        "image": "./images/lady.jpg",
         "clicked": false
     }, 
     {
         "id": 3,
-        "image": "",
+        "image": "./images/smith.jpg",
         "clicked": false
     }, 
     {
         "id": 4,
-        "image": "",
+        "image": "./images/trinity.jpg",
         "clicked": false
-    }, 
+    },
     {
-        "id": 5,
-        "image": "",
-        "clicked": false
-    }, 
-    {
-        "id": 6,
-        "image": "",
-        "clicked": false
-    }, 
-    {
-        "id": 7,
-        "image": "",
-        "clicked": false
-    }, 
-    {
-        "id": 8,
-        "image": "",
+        "id": 4,
+        "image": "./images/neo.jpg",
         "clicked": false
     }
 ]
