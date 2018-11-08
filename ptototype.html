@@ -5,12 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    .box {
+      margin: 5px;
+      width: 100px;
+      height: 100px;
+    }
+    .blue {
+      background-color: blue;
+    }
+    .red {
+      background-color: red;
+    }
+    .face_down {
+      background-color: cyan;
+    }
+  </style>
 </head>
 <body>
-  <div class="box face_down" data-id="blue" style="background-color: blue; width: 100px; height: 100px;"></div>
-  <div class="box face_down" data-id="blue" style="background-color: blue; width: 100px; height: 100px; margin-top: 10px"></div>
-  <div class="box face_down" data-id="red" style="background-color: red; width: 100px; height: 100px; margin-top: 10px"></div>
-  <div class="box face_down" data-id="red" style="background-color: red; width: 100px; height: 100px; margin-top: 10px"></div>
+  <div class="box blue face_down" data-id="blue"></div>
+  <div class="box blue face_down" data-id="blue"></div>
+  <div class="box red face_down" data-id="red"></div>
+  <div class="box red face_down" data-id="red"></div>
 </body>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
